@@ -12,6 +12,7 @@
         <module>payment-service</module>
         <module>order-service</module>
         <module>service-registry</module>
+        <module>api-gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
