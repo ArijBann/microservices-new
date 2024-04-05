@@ -26,7 +26,7 @@ public class OrderService {
     @Lazy
     private RestTemplate template;
 
-    @Value("http://localhost:9192/payment-service/doPayment")
+    @Value("http://payment-service/payment-service/doPayment")
     private String ENDPOINT_URL;
 
     public TransactionResponse saveOrder(TransactionRequest request) throws JsonProcessingException {
